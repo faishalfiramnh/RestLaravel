@@ -15,12 +15,12 @@ class PlacesSeeder extends Seeder
         $faker = Faker\Factory::create();
         foreach (range(1, 100) as $i) {
           $simpan = $faker->domainName();
-          PlacesController::create([
-            'name' =>$faker->streetName.' Places',
-            'namaTempat' =>$faker->namaTempat,
-            'longtitude' =>$faker->longtitude,
-            'lotitude' =>$faker->lotitude
-          ]);
+          // PlacesController::create([
+          //   'name' =>$faker->streetName.' Places',
+          //   'namaTempat' =>$faker->namaTempat,
+          //   'longtitude' =>$faker->longtitude,
+          //   'lotitude' =>$faker->lotitude
+          // ]);
         }
     }
 }
